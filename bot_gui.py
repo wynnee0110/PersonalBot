@@ -6,7 +6,7 @@ import threading
 import time
 # --- Paths ---
 MODEL_FOLDER = r"C:\Users\obial\personal-ai\models"
-MODEL_FILE = "Phi-3-mini-4k-instruct-q4.gguf"  # exact file name
+MODEL_FILE = "Phi-3-mini-4k-instruct-q4.gguf"  # CHANGED THIS TO YOUR PREFFERED AI MODEL
 MODEL_PATH = os.path.join(MODEL_FOLDER, MODEL_FILE)
 
 # --- Load model (local only) ---
