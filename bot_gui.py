@@ -4,8 +4,8 @@ from gpt4all import GPT4All
 import os
 import threading
 import time
-# --- Paths ---
-MODEL_FOLDER = r"C:\Users\obial\personal-ai\models"
+# --- Paths ---ALWAYS CHECK PATHS
+MODEL_FOLDER = r"C:\Users\personal-ai\models"
 MODEL_FILE = "Phi-3-mini-4k-instruct-q4.gguf"  # CHANGE THIS TO YOUR PREFFERED AI MODEL
 MODEL_PATH = os.path.join(MODEL_FOLDER, MODEL_FILE)
 
