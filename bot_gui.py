@@ -6,10 +6,10 @@ import threading
 import time
 # --- Paths ---
 MODEL_FOLDER = r"C:\Users\obial\personal-ai\models"
-MODEL_FILE = "Phi-3-mini-4k-instruct-q4.gguf"  # CHANGED THIS TO YOUR PREFFERED AI MODEL
+MODEL_FILE = "Phi-3-mini-4k-instruct-q4.gguf"  # CHANGE THIS TO YOUR PREFFERED AI MODEL
 MODEL_PATH = os.path.join(MODEL_FOLDER, MODEL_FILE)
 
-# --- Load model (local only) ---
+# --- Load model (local only) ---CHANGE THIS TO YOUR PREFFERED AI MODEL
 model = GPT4All(model_name=MODEL_FILE, model_path=MODEL_FOLDER, allow_download=False)
 
 # --- GUI setup ---
